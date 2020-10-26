@@ -7,30 +7,35 @@
 </head>
 <style>
   h1{
-    text-align: center;
     font: size 18pt;
     text-decoration: underline;
     font-weight: 100;
-  }
-  div{
-    text-align:center;
   }
 </style>
 <body>
   <h1>请留下个人资料</h1>
     <form>
       <table >
-  姓名：<input type="text"><br>
-    <E-mail>
+    <p> 
+   姓名：<input type="text"><br>
+    </p>
+    <p>
       E-mail:<input type="text"><br>
-    </E-mail>
-    电话:&nbsp;&nbsp;&nbsp;<input type="text>"<br> <br>
-   
-  </div>
-    <label>性别：<input type="radio"checked="checked">女
+      <span  style="color:red;font-size:12px">校验输入的E-mail的格式：用户名@域名。</span>
+    </p>
+
+    <p>
+      电话:&nbsp;&nbsp;&nbsp;<input type="text>"<br> <br>
+      <span  style="color:red;font-size:12px">校验输入的电话格式：11位数字组成。</span>
+    </p> 
+
+    <p>
+      <label>性别：<input type="radio"checked="checked">女
           <input type="radio">男<br>
         </label>
-   年龄： <select size="8">
+      </p>
+
+   <p>年龄： <select >
     <option selected> 20以下</option>
     <option>20 </option>
     <option>21 </option>
@@ -39,13 +44,17 @@
     <option>24 </option>
     <option>25 </option>
     <option>25以上 </option>
-    </select><br>
+    </select><br></p>
     
-    <textarea rows="5"cols="50"></textarea><br>
-   您的爱好：<input type="checkbox" value="">运动</br>
-   <input type="checkbox" value="">阅读</br>
-   <input type="checkbox" value="">听音乐</br>
-   <input type="checkbox" value="">旅游</br>
+    <p>
+      留言板：<textarea rows="5"cols="50"></textarea><br>
+    </p> 
+
+   <td rowspan="5">您的爱好：<br></td>
+   <tr><td ><input type="checkbox" value="">运动</br></td></tr>
+   <tr><td><input type="checkbox" value="">阅读</td></tr>
+   <tr><td><input type="checkbox" value="">听音乐</br></td></tr>
+   <tr><td><input type="checkbox" value="">旅游</br></td></tr>
    </table>
    </form>
 </body>
