@@ -1,0 +1,88 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+nav {
+    width: 960px;
+    height: 80px;
+    background-color: rgb(37, 171, 248);
+    list-style-type: none;
+    font-size: 27px;
+}
+ul{
+    width: 100%;
+    height: 80px;
+    line-height: 100%;
+}
+ul li{
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    width: 110px;
+    float: left;
+    list-style: none;
+}
+li a:hover{
+    color: rgb(255, 1, 1);
+}
+ ul >li a{
+  text-decoration: none; 
+  color: white; 
+}
+#dd{
+    width: 980px;
+    height: auto;
+    margin: 5px auto;
+}
+header{
+    width: 960px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(78, 78, 78);
+}
+#ee{
+    margin: 5px;
+    width: 960px;
+    height: 525px;
+}
+article
+{
+    width: 500px;
+    height: 550px;
+}
+section{
+    width: 650px;
+    height: 250px;
+    border: 1px solid rgba(21, 162, 243, 0.925);
+}
+aside{
+    width: 280px;
+    height: 475px;
+    background-color: rgb(214, 213, 213);
+    float: right;
+}
+section h5{
+    border-bottom: 1PX dotted   rgba(21, 162, 243, 0.925);
+}
+.ziti1{
+    font-size:25px ;
+    color: rgb(73, 72, 72);
+}
+.xian{
+    border-top: 1PX solid   rgb(21, 162, 243);
+}
+.sec{
+    margin-top: 3px;
+}
+.ju1{
+    margin: 12px;
+}
+.ju2{
+    color: rgb(119, 119, 121);
+}
+footer p{
+    text-align: center;
+}
